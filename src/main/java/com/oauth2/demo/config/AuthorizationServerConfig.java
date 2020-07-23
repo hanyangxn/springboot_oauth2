@@ -35,4 +35,5 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         System.out.println(new org.apache.tomcat.util.codec.binary.Base64().encodeAsString("my-client-1:12345678".getBytes()));
         System.out.println(java.util.Base64.getEncoder().encodeToString("my-client-1:12345678".getBytes()));
     }
+    //页面访问http://localhost:8080/oauth/authorize?response_type=code&client_id=my-client-1&redirect_uri=http://www.baidu.com&scope=all
 }
